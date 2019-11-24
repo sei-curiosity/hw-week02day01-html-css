@@ -9,21 +9,28 @@
      box-sizing: border-box; /* IE */
 }
 
+
 /******************************************
 /* FONTS
 /*******************************************/
 
 /* font-family: "Open Sans", Arial, sans-serif */
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
 
 /******************************************
 /* BASE STYLES
 /*******************************************/
 
+h1{ font-weight: 800;
+    text-align: left;
+}
 
+h2{ font-weight: 600;
+
+}
 body {
     color: #000;
-    font-size: 12px;
+    font-size: 800;
     line-height: 1.4;
     font-family: Helvetica, Arial, sans-serif;
 }
@@ -34,9 +41,20 @@ body {
 /*******************************************/
 
 header {
+    background-image: url('images/header_bg.jpg');
+    padding: 200px;
+    margin: auto;
+
+    background-size: cover;
+
+
 
 }
 
+.btn{
+ font-weight: 800;
+    -webkit-box-sizing: border-box; 
+}
 footer {
 
 }

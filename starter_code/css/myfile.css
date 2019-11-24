@@ -1,0 +1,55 @@
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+header{
+padding: 100px;
+height: 350px;
+margin: auto;
+background-size: cover;
+background-image: url(images/header_bg.jpg);
+
+}
+
+h1 {
+    
+    font-size: 50px;
+    font-weight: 800px;
+    color: white;
+    text-align: left;
+        
+
+
+}
+div{
+
+  height: 10x;
+  margin: 400px;
+  padding: 1px;
+  width: 200px;
+  
+border-radius: 5px;
+border: black;
+ font-size: 24px;
+font-weight: bold;
+ box-sizing: padding-box;
+ text-align: center;
+background: yellow;
+
+
+}
+body{
+background: honeydew;
+
+
+
+}
+h2 {
+    font-
+    font-size: 30px;
+     font-weight: 600px;
+    text-align: center;
+    color: white;
+}
+ul{
+    font-size: 30px;
+    color: #033048;
+}
