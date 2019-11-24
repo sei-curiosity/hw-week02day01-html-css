@@ -11,6 +11,7 @@
 
 /******************************************
 /* FONTS
+
 /*******************************************/
 
 /* font-family: "Open Sans", Arial, sans-serif */
@@ -34,6 +35,11 @@ body {
 /*******************************************/
 
 header {
+    background-image: url('../images/header_bg.jpg');
+    height: 400px;
+    width: 800px;
+    text-align: center;
+   
 
 }
 
@@ -46,5 +52,100 @@ footer {
 /*******************************************/
 
 
+main{
+background-color: #f0efef;
+height: 400px;
+width: 800px;
 
+}
+#wrapper{
+    width: 800px;
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+        
+    
+    
+}
+#Relaxr{
+font-size: 24px;
+font-weight: 800;
+color: white;
+padding-right: 70%;
+padding-top: 5%;
+}
+#P1{
+    text-align: center;
+    font-weight: 600;
+    font-size: 24px;
+    color: white;
+    padding-top: 5%;
+}
+#h3{
+    font-weight: 800;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 0.5 px solid;
+    background-color: yellow;
+    display: inline-block;
+    padding:0% 5%;
+    
+}
+#Benifits{
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+}
+#p2{
+    font-weight: 400;
+    font-size: 13px;
+}
+ul{
+    text-align: center;
+    padding: 5%;
+}
+ul li{
+    font-weight: 400;
+    font-size: 13px;
+}
+#div1{
+    background-image: url('../images/testimonial_bg.jpg');
+    height: 200px;
+    width: 800px;
+    color: white;
+    font-weight:lighter;
+    font-style: italic;
+    text-align: center;
+    padding: 5%;
+    font-size: 18px;
+    font-weight: 600;
+}
+#div2{
+    background-color: yellow;
+    text-align: center;
+    font-weight: 800;
+    font-size: 12px;
+    border-radius: 5px;
+    height: 80px;
 
+}
+#h3a{
+    background-color: darkslateblue;
+    color: white;
+    text-align: center;
+
+}
+ #div3{
+     background-color: #121212;
+     color: white;
+     text-align: center;
+ }
+ #h3b{
+     color: yellow;
+     font-size: 18px;
+
+ }
+ img{
+     margin: auto;
+ }
