@@ -1,50 +1,133 @@
-/******************************************
-/* SETUP
-/*******************************************/
-
-/* Box Model */
-* {
-     -moz-box-sizing: border-box; /* Firexfox */
-     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
-     box-sizing: border-box; /* IE */
-}
-
-/******************************************
-/* FONTS
-/*******************************************/
-
-/* font-family: "Open Sans", Arial, sans-serif */
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
-
-/******************************************
-/* BASE STYLES
-/*******************************************/
-
-
 body {
     color: #000;
     font-size: 12px;
     line-height: 1.4;
     font-family: Helvetica, Arial, sans-serif;
+    font-family: "Open Sans", Arial, sans-serif;
+    text-align: center;
+    width: 1200px;
+    align-content: center;
+    margin: auto
 }
-
-
-/******************************************
-/* LAYOUT
-/*******************************************/
 
 header {
 
+    background-image: url(../images/header_bg.jpg);
+    height: 600px;
+    margin: 0;
+    color: #FFF;
+    padding: 25px;
 }
 
 footer {
 
+    background-color: #121212;
+    padding: 25px;
+    color: #FFF;
+    
+}
+header h1{
+    font-weight: bolder;
+    font-size: 24px;
+    margin: auto 100px;
+    text-align: left;
+    
+}
+header p{
+    font-weight: 400;
+    font-size: 24px;
+    margin: 75px auto;
+}
+header button{
+
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px auto;
+    background-color: #f9e42e;
+    font-size: 14px;
+    font-weight: bolder;
+    border-radius: 5px;
+    text-align: center;
 }
 
-/******************************************
-/* ADDITIONAL STYLES
-/*******************************************/
+.benefits{
+    background-color: #f0efef;
+    text-align: left;
+    padding: 40px;
+}
 
+.benefits h2{
+    font-weight: 400;
+    font-size: 20px;
+}
 
+.benefits p {
+    font-weight: lighter;
+    font-size: 13px;
+    max-width: 40%;
+    margin: 20px 0;
+}
 
+.benefits ul{
+    list-style: disc;
+    margin: 20px 40px;
+}
 
+.benefits ul li{
+    
+    font-size: 13px;
+    font-weight: lighter;
+}
+
+.testimonial{
+    background-image: url(../images/testimonial_bg.jpg);
+    color: #FFF;
+    height: 300px;
+    padding: 100px;
+}
+
+.testimonial p{
+    font-style: italic;
+    font-size: 18px;
+    font-weight: lighter;
+    margin: auto;
+}
+
+.testimonial blockquote{
+    font-weight: 400;
+    font-size: 18px;
+    margin: 20px auto;
+}
+
+.signup{
+    background-color: #f9e42e;
+    height: 50px;
+    padding: 15px;
+}
+
+.signup button{
+    font-size: 12px;
+
+    background-color: #033048;
+    color: #FFF;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+
+footer h1{
+    color: #f9e42e;
+    font-weight: bolder;
+    font-size: 24px;
+    margin: 25px auto;
+}
+
+footer img{
+    margin: 25px 20px;
+}
+
+footer p{
+    font-size: 9px;
+    font-weight: 400;
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
