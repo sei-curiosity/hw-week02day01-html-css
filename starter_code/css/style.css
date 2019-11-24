@@ -1,24 +1,14 @@
-/******************************************
-/* SETUP
-/*******************************************/
 
-/* Box Model */
 * {
      -moz-box-sizing: border-box; /* Firexfox */
      -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
      box-sizing: border-box; /* IE */
 }
 
-/******************************************
-/* FONTS
-/*******************************************/
+
 
 /* font-family: "Open Sans", Arial, sans-serif */
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
-
-/******************************************
-/* BASE STYLES
-/*******************************************/
 
 
 body {
@@ -26,24 +16,93 @@ body {
     font-size: 12px;
     line-height: 1.4;
     font-family: Helvetica, Arial, sans-serif;
+    text-align: center;
+    margin: 0%;
+ 
+
 }
 
 
-/******************************************
-/* LAYOUT
-/*******************************************/
+.first {
+    font-family: "Open Sans" ;
+    color: white;
+    background-image: url('/Users/honeytheshine/Desktop/sei/homeworks/hw-week02day01-html-css/starter_code/images/header_bg.jpg'); 
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 500px;
+    
+}
 
-header {
 
+.second {
+    padding-top: 30px;
+    padding-left: 50px;
+    background-color: #EEEEED;
+    width: 100%;
+    height: 450px;
+    margin: auto;
+    color: #263E54;
+    text-align:  left;
+    
+
+}
+
+ul , li {
+    color: gray;
+    align-content: center;
+    font-size: 16px;
+    padding-top: 15px;
+
+}
+
+
+.third {
+    background-image: url('/Users/honeytheshine/Desktop/sei/homeworks/hw-week02day01-html-css/starter_code/images/testimonial_bg.jpg'); 
+    color: #EEEEED;
+    height: 350px;
+    background-size: 100%;
+}
+
+.yellowbg {
+    background-color: #F7E900 ;
+    width: 100%;
+    font-weight: bold;
+    height: 80px;
+}
+
+.sign{
+    text-align: center;
+    color: white;
+    background-color: #243C51;
+    text-align: center;
+    width: 200px;
+    padding: 10px;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 16px;
+
+ }
+
+ .sign2 {
+    color: #24465B; 
+    background-color: #F8E900;
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 16px;
+ }
+
+img {
+    padding: 50px 30px;
 }
 
 footer {
-
+background-color: #2E2E2E;
+color: white;
 }
 
-/******************************************
-/* ADDITIONAL STYLES
-/*******************************************/
 
 
 
