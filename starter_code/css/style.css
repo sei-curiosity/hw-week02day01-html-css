@@ -4,9 +4,12 @@
 
 /* Box Model */
 * {
-     -moz-box-sizing: border-box; /* Firexfox */
-     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
-     box-sizing: border-box; /* IE */
+    -moz-box-sizing: border-box;
+    /* Firexfox */
+    -webkit-box-sizing: border-box;
+    /* Safari/Chrome/iOS/Android */
+    box-sizing: border-box;
+    /* IE */
 }
 
 /******************************************
@@ -34,17 +37,159 @@ body {
 /*******************************************/
 
 header {
+    font-family: 'Open Sans', sans-serif;
 
 }
 
 footer {
-
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #121212;
+    text-align: center;
+    padding: 90px;
 }
+
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
 
+h1 {
+    padding: 10px 50px 50px 50px;
+    font-size: 24px;
+    font-weight: 800;
+    color: white;
+    text-align: center;
+}
 
+h2 {
+    padding: 15px 50px 10px;
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+}
 
+h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(46, 46, 46);
+}
 
+h4 {
+    font-size: 18px;
+    font-weight: 600;
+   padding: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    padding: 30px 30px;
+}
+
+ul {
+    padding: 15px 80px;
+    font-size: 20px;
+    font-weight: 300;
+    color: #606161;
+    list-style-type: disc;
+}
+
+p {
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 300;
+    color: #606161;
+}
+
+button {
+    border: 5px sold;
+    font-weight: 800;
+}
+
+blockquote {
+    text-align: center;
+    width: 805px;
+    padding: 0 0 0 485px;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 300;
+
+}
+
+.center {
+    text-align: center;
+    margin: 0;
+    padding: 120px;
+}
+
+.header {
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url("../images/header_bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1440px;
+}
+
+.main {
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 80px;
+    background-color: #f0efef;
+}
+
+.quote {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: white;
+    padding: 80px;
+    background-image: url("../images/testimonial_bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1440px;
+
+}
+
+.yellowButton {
+    font-family: 'Open Sans', sans-serif;
+    padding: 10px 30px;
+    font-size: 14px;
+    font-weight: 800;
+    background-color: #f9e42e;
+    color: #121212;
+    border-radius: 5px;
+}
+
+.darkButton {
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    padding: 10px 30px;
+    font-size: 12px;
+    background-color: #033048;
+    color: white;
+}
+
+.yallowBackground {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    padding: 25px;
+    background-color: #f9e42e;
+}
+
+.boxBorderStyle {
+    width: 500px;
+    box-sizing: border-box;
+}
+
+.boxStyle {
+    width: 320px;
+    box-sizing: border-box;
+}
+
+#footertitle {
+    color: #f9e42e;
+}
