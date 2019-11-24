@@ -7,6 +7,9 @@
      -moz-box-sizing: border-box; /* Firexfox */
      -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
      box-sizing: border-box; /* IE */
+     text-align: center;
+     margin-left:200px ;
+     margin-right: 200px;
 }
 
 /******************************************
@@ -20,15 +23,93 @@
 /* BASE STYLES
 /*******************************************/
 
+.firstSec{
+    font-size: 24px;
+    align-self: center;
+    color: white;
+    text-align: center;
+    background-image: url(../images/header_bg.jpg);
+    padding: 60px 60px;
+ 
+}
+#logoN{
 
+    font-family: 'Maven Didact Gothic';
+    font-weight: bolder;
+    padding-right: 320px;
+    padding-bottom:90px ;
+    
+
+}
+    #firstSecH2{
+        
+    font-weight:semibold ;
+
+}
+#firstB{
+    background-color: #f9e42e;
+    font-weight:bolder ;
+    color: #121212;
+    border: 2px solid #f9e42e;
+    border-radius: 8px;
+}
+#secondSec{
+    background-color:#c6c6c6 ;
+    padding-left: 40px;
+    padding-right:60px ;
+    padding-bottom:50px ;
+    padding-top:50px ;
+    
+}
+#sH3{
+   font-weight: bold;
+   font-size: 20px;
+   color: #121212 ;
+}
+#sP{
+    text-align: left;
+    font-weight:Light;
+    font-size: 13px;
+    color:#606161;
+
+}
+
+#sUl{
+    text-align: left;
+    font-weight:Light;
+    font-size: 13px;
+}
 body {
     color: #000;
     font-size: 12px;
     line-height: 1.4;
     font-family: Helvetica, Arial, sans-serif;
+    margin-left: 160px;
+    margin-right:160px ;
 }
+.thirdS{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-image: url(../images/testimonial_bg.jpg);
+    back: ;
+    color:white;
+}
+.fourthS{
+    padding-bottom: 25px;
+    padding-top: 25px;
+    background-color:#f9e42e ;
+}
+#secBut{
+background-color: darkslategrey;
+border: 2px solid darkslategrey;
+border-radius: 8px;
+}
+#fcbookimg{
+    border-image: initial;
+}
+#twitterimg{
 
-
+}
 /******************************************
 /* LAYOUT
 /*******************************************/
@@ -38,7 +119,8 @@ header {
 }
 
 footer {
-
+background-image: url(../images/relaxr_landing.jpg);
+background-repeat: no-repeat;
 }
 
 /******************************************
