@@ -2,6 +2,24 @@
 /* SETUP
 /*******************************************/
 
+    h1 {
+        background-image: url("../images/header_bg.jpg");
+    font-size: 24px ; 
+    font-weight: bold; 
+    color :white;
+    }
+    div {
+    
+        background-color: yellow;
+        boder
+  
+
+
+}
+
+
+
+
 /* Box Model */
 * {
      -moz-box-sizing: border-box; /* Firexfox */
