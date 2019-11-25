@@ -26,18 +26,120 @@ body {
     font-size: 12px;
     line-height: 1.4;
     font-family: Helvetica, Arial, sans-serif;
+    margin:0 auto;
+    
+}
+.main_them{
+    margin:0 auto;
+    text-align: center;
+    height: 900px;
+    width: auto;
+    background-image: url('../images/header_bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+}
+.main_them >h1{
+    text-align: left;
+    padding: 90px;
+    font-size: 24px;
+    font-weight: bolder ;
+    margin-left: 50px;
+    
+
 }
 
+.main_them >p{
+    font-size: 24px;
+    font-weight:400 ;
+    margin-top: 200px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+button{
+    border-radius:5px;
+    font-size: 13px;
+    font-weight:900 ;
+    color:#033048;
+    background: #f9e42e;
+    border: unset;
+    
 
+}
+.Benefits{
+    color: #606161;
+    background-color: #f0efef;
+}
+.Benefits >h1{
+    font-weight: 400;
+    font-size:  20px;
+    color: #033048;
+    padding-top:30px;
+    margin-left:30px;
+
+
+
+}
+
+.Benefits >p{
+    font-size:13px;
+    font-weight: 100;
+    margin:30px 0px 30px 60px;
+
+    
+}
+
+.Benefits >ul{
+    padding-bottom: 40px;
+    list-style-type: disc;
+    margin-left: 130px;
+}
+.Benefits >li{
+    
+}
 /******************************************
 /* LAYOUT
 /*******************************************/
-
-header {
+footer{
+    text-align: center;
+    margin-bottom: 0;
 
 }
 
-footer {
+
+footer blockquote {
+    font-weight: 450px;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.sign > button{
+    color:white;
+    background:#033048;
+    margin: 30px;
+
+}
+.sign{
+    background-color: #f9e42e;
+
+}
+.brand{
+    background-color: #121212;
+    
+}
+.brand h1{
+    padding-top:30px;
+    color: yellow;
+    font-weight: bolder;
+    font-size: 24px;
+}
+.brand p{
+    font-size: 9;
+    font-weight: 450;
+    color:white;
+    margin-top:60px;
+    padding-bottom: 10px;
+
 
 }
 
