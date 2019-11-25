@@ -3,11 +3,11 @@
 /*******************************************/
 
 /* Box Model */
-* {
-     -moz-box-sizing: border-box; /* Firexfox */
-     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
-     box-sizing: border-box; /* IE */
-}
+/* * { */
+     -moz-box-sizing: border-box; Firexfox
+     -webkit-box-sizing: border-box; //Safari/Chrome/iOS/Android
+     box-sizing: border-box; IE
+/* } */
 
 /******************************************
 /* FONTS
@@ -34,13 +34,128 @@ body {
 /*******************************************/
 
 header {
+    
+    background-image: url("../../starter_code/images/header_bg.jpg");
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    margin: 0px;
 
+}
+/* Weight: Light, Light Italic, Semibold, Extrabold
+
+"Relaxr" - Extra bold, 24px
+"Get piece of mind with a single tap" - Semibold, 24px
+"Get it Now" - Extra bold, 14px. 5px border radius
+"Benefits" - Semibold, 20px
+"The perfect personal assistant. Relaxr does your job for you so you can enjoy life as it is meant to be." - Light, 13px
+• Schedule meetings for you
+• Excel automation to complete your work for you
+• Responds to emails on your behalf */
+.hd {
+    color: white;
+    font-family:sans-serif;
+    padding: 20px 0px 0px 80px;
+    font-size: 34px;
+    font-weight: bolder;
+}
+.divc {
+    color:white;
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+    margin: 100px;
+}
+.button {
+
+    background-color: #f9e42e;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 0px 600px;
+}
+#alink{
+    color:#033048;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: bolder;
+}
+#alink2{
+    color:#f1f6f8;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: bolder;
+ 
 }
 
 footer {
 
+    
+
+}
+.secb {
+    background-image: url("../../starter_code/images/testimonial_bg.jpg");
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    margin: 0px;
+
+}
+/* # hed {
+    font-size: 3px;
+    text-align: center;
+    margin: 0px;
+    color: blanchedalmond;
+} */
+
+.div1 {
+    background-color:#f0efef ;
+    padding: 50px 0px 0px 50px;
+    height: 500px;
 }
 
+#bene {
+    font-family: serif;
+    color: #033048;
+    font-size: 20px;
+    font-weight: bold;
+}
+.yback{
+    background-color: #f9e42e;
+    padding: 10px;
+}
+.button2 {
+    background-color: #033048; 
+    border-radius: 10px;
+    color: white;
+    padding: 15px 50px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 0px 600px;
+
+}
+.last {
+    background-color: #121212;
+    margin:0px;
+    padding: 200px;
+}
+.twefac {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    justify-content: center;
+}
+#seh{
+    text-align: center;
+    color: #f9e42e;
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
