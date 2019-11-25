@@ -14,7 +14,7 @@
 /*******************************************/
 
 /* font-family: "Open Sans", Arial, sans-serif */
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+/*** @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 /******************************************
 /* BASE STYLES
@@ -34,17 +34,115 @@ body {
 /*******************************************/
 
 header {
+    background-image: url("../images/header_bg.jpg"); 
+    padding: 200px; 
+    font-family: 'Calistoga', cursive;
+}
+
+.firstP{
+
+ text-align: center;
+ font-size:30px;
+ font-family: sans-serif;
+ color:white;
 
 }
+
 
 footer {
 
+    padding :40px ;
+
 }
 
-/******************************************
-/* ADDITIONAL STYLES
-/*******************************************/
+h1{
+
+    font-family: "Open Sans", Arial, sans-serif 
+}
+
+.divBut{
+
+    text-align: center;
+}
+.firstButton {
+
+    padding:25px;
+    color:#545351 bold;
+    border-radius: 5px;
+    width:200px;
+    background-color:#e6e63e;
+    position:relative;
+    text-align:center;
+    border:#545351;
+
+}
+
+.relaxerHeading{
+position:relative;
+top:-200px;
+left:-150px;
+    padding-top: 0px;
+   color:white;
+}
 
 
+.section {
+   padding: 90px; 
+   background-color: #white;
+
+}
 
 
+.footerOne{
+
+    background-image: url("../images/testimonial_bg.jpg");
+    text-align: center;
+    padding: 50px;
+    font-family:'Open Sans';
+    color:#b9bec7;
+
+}
+
+.yellow{
+    background-color:#e6e63e;
+    padding : 15px;
+    text-align:center;
+
+
+}
+.secondButton{
+
+    border-radius: 5px;
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left:25px;
+    padding-right:25px;
+    margin:0 auto;
+    margin-right:10px;
+    
+}
+
+.thirdHeading{
+
+    margin-top:0px;
+
+}
+
+.imgs{
+
+    margin: 20px;
+}
+
+.lastDiv{
+
+    padding:0px;
+    background-color:#44464a;
+    text-align: center;
+    padding:100px;
+}
+
+
+.copyright{
+padding-top:80px;
+margin-bottom: 0px;
+}
