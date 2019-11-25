@@ -26,7 +26,10 @@ body {
     font-size: 12px;
     line-height: 1.4;
     font-family: Helvetica, Arial, sans-serif;
+    width: auto;
+    background-position: 0px 5px
 }
+
 
 
 /******************************************
@@ -34,11 +37,86 @@ body {
 /*******************************************/
 
 header {
-
+    height: 700px;
+    background-image: url(/starter_code/images/header_bg.jpg);  
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-
+.relaxr{
+    font-size: 24px;
+    font-weight: bold;
+    padding: 20px;
+    color: aliceblue;
+}
+.gpomw{
+    font-size: 24px;
+    font-family: "Semibold";
+    text-align: center;
+    color: aliceblue;
+    background-position: 0px 5px
+}
+button {
+    background-color: rgb(192, 192, 46);
+    font-weight: bolder;
+    color: black;
+    padding: 11px 52px;
+    text-align: center;
+    font-size: 14px;
+    width: 200px;
+    border-radius: 5px;
+    margin: 250px 500px;
+}
+.benefits{
+    background-image: url(/starter_code/images/header_bg.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+.bnfts{
+    font-size: 24px;
+    font-weight: bold;
+    padding: 20px;
+    color: aliceblue;
+    background-position: 0px 5px;
+}
+ul,li{
+    color: aliceblue;
+    align-content: center;
+    margin-left: 100px;
+    margin-right: 50px;
+    font-weight: light;
+    font-size: 13px;
+}
+.perfect{
+    font-size: 24px;
+    font-family: "Semibold";
+    text-align: center;
+    color: aliceblue;
+    margin: 20px;
+    background-position: 0px 5px
+}
+.change{
+    color: aliceblue;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    padding: 87px;
+    
+}
+.copyri{
+    margin: 0px;
+}
+.imgc{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
 footer {
-
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    background-image: url(/starter_code/images/testimonial_bg.jpg);
 }
 
 /******************************************
