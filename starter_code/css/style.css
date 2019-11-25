@@ -4,9 +4,9 @@
 
 /* Box Model */
 * {
-     -moz-box-sizing: border-box; /* Firexfox */
-     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
-     box-sizing: border-box; /* IE */
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
 }
 
 /******************************************
@@ -14,37 +14,103 @@
 /*******************************************/
 
 /* font-family: "Open Sans", Arial, sans-serif */
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
 
 /******************************************
 /* BASE STYLES
 /*******************************************/
 
-
 body {
-    color: #000;
-    font-size: 12px;
-    line-height: 1.4;
-    font-family: Helvetica, Arial, sans-serif;
+  color: #000;
+  /* font-size: 12px; */
+  line-height: 1.4;
+  font-family: Helvetica, Arial, sans-serif;
 }
-
 
 /******************************************
 /* LAYOUT
 /*******************************************/
 
 header {
-
+  background-image: url("../images/header_bg.jpg");
+  background-repeat: no-repeat;
+  background-origin: border-box;
+  background-size: cover;
+  background-position: center;
 }
-
+header > h1 {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 800;
+}
+header main h1 {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 600;
+}
+header main button {
+  font-weight: 800;
+  font-size: 14px;
+  border-radius: 5px;
+  background-color: #f9e42e;
+  border: none;
+}
 footer {
-
+  background-color: #121212;
 }
-
+footer h1 {
+  font-size: 24px;
+  font-weight: 800;
+}
+footer p {
+  font-size: 9px;
+  font-weight: 600;
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+#benefits {
+  background-color: #f0efef;
+}
+#benefits h1 {
+  font-weight: 600;
+  font-size: 20px;
+}
+#benefits p {
+  font-weight: 300;
+  font-size: 13px;
+}
+#benefits ul {
+  font-weight: 300;
+  font-size: 13px;
+}
 
+#blockquote {
+  background-image: url("../images/testimonial_bg.jpg");
+  background-repeat: no-repeat;
+  background-origin: border-box;
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+}
+#blockquote blockquote {
+  font-weight: 300;
+  font-size: 18px;
+  font-style: italic;
+}
 
+#blockquote strong {
+  font-weight: 600;
+  font-size: 18px;
+}
 
-
+#signup {
+  background-color: #f9e42e;
+}
+#signup button {
+  font-weight: 800;
+  background-color: #033048;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
